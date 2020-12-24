@@ -1,0 +1,11 @@
+@adminUri=http://localhost:3000/admin/api
+
+GET {{adminUri}}/rest/user/
+Content-Type: application/json
+
+###
+
+POST {{adminUri}}/login
+Content-Type: application/json
+
+
